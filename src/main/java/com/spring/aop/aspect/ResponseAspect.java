@@ -17,7 +17,7 @@ import java.util.Map;
 @Component
 public class ResponseAspect {
 
-    private static List<String> PII_DATA_KEYWORD= Arrays.asList("number","address","cardid","cvv");
+    private static List<String> PII_DATA_KEYWORD= Arrays.asList("phonenumber","address","cardid","cvv");
 
     private static String MASK_STAR="******";
 
